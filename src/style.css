@@ -1,3 +1,16 @@
 body {
   color: red;
 }
+
+.display {
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: text;
+  display: block;
+  white-space: pre;
+}
+
+.tttsnb-editor-line[data-empty='true']:before {
+  display: block;
+  content: ' ';
+}
